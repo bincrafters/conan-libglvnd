@@ -27,8 +27,8 @@ class LibnameConan(ConanFile):
     _build_subfolder = "build_subfolder"
 
     requires = (
-        "OpenSSL/1.0.2s@conan/stable",
-        "zlib/1.2.11@conan/stable"
+        "openssl/1.0.2t",
+        "zlib/1.2.11"
     )
 
     def config_options(self):
