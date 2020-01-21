@@ -26,7 +26,7 @@ class LibnameConan(ConanFile):
     _build_subfolder = "build_subfolder"
 
     requires = (
-        "openssl/1.0.2t",
+        "openssl/1.0.2u",
         "zlib/1.2.11"
     )
 
