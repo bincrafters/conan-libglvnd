@@ -27,7 +27,7 @@ class LibnameConan(ConanFile):
 
     requires = (
         "openssl/1.0.2u",
-        "zlib/1.2.11"
+        "zlib/1.2.13"
     )
 
     def config_options(self):
